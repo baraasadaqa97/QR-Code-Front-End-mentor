@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+
+}
+body{
+    background-color:hsl(212, 45%, 89%) ;
+width:100vw ;
+
+}
+#container{
+   background-color: hsl(0, 0%, 100%); 
+   border-radius: 20PX;
+   width: 300px;
+   text-align: center;
+   margin: 90px auto;
+    
+
+}
+#QR{
+    width:98%;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+   padding-bottom:40px ;
+   color: hsl(220, 15%, 55%);
+
+}
+h3{
+    font-weight: 700;
+    padding: 10px 20px;
+    color: hsl(218, 44%, 22%);
+}
+ p, h3{
+padding-right: 18px;
+padding-left: 18px;
+}
+
+@media screen and (max-width: 375px) {
+#container{
+    width: 85%;
+    margin: 50px auto;
+
+}
+h3{
+    font-weight: 700;
+    padding: 15px 25px;
+    font-weight: 800;
+}
+p, h3{
+    padding-right:  25px;
+    padding-left:25px;
+    }
+}
